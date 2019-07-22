@@ -1,7 +1,7 @@
 node {
    def mvnHome
    stage('Preparation') { // for display purposes
-      // Get some code from a GitHub repository test test
+      // Get some code from a GitHub repository test test test
       git 'https://github.com/ratheeshep/maven'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
